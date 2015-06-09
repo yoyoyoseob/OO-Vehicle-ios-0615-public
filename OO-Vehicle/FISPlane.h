@@ -9,7 +9,13 @@
 #import "FISVehicle.h"
 
 @interface FISPlane : FISVehicle
+@property (nonatomic) CGFloat currentAltitude;
+@property (nonatomic) CGFloat topAltitude;
 
 //code goes here
+
+-(instancetype)init;
+-(void)increaseAltitude;
+-(void)decreaseAltitude;
 
 @end

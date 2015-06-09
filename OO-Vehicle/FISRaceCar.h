@@ -9,7 +9,10 @@
 #import "FISVehicle.h"
 
 @interface FISRaceCar : FISVehicle
+@property (nonatomic, strong) NSArray *sponsors;
 
 //code goes here
+
+-(instancetype)init;
 
 @end

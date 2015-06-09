@@ -12,4 +12,7 @@
 
 //code goes here
 
+-(instancetype)init;
+
+
 @end

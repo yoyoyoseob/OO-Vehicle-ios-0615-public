@@ -12,4 +12,15 @@
 
 //code goes here
 
+-(instancetype)init
+{
+    self = [super initWithWeight:1270.0f topSpeed:615.0f currentSpeed:0.0f currentDirection:0.0f];
+    
+    if (self)
+    {
+        self.sponsors = [[NSArray alloc] initWithObjects:@"KFC", @"Taco Bell", @"Pizza Hut", nil];
+    }
+    return self;
+}
+
 @end
